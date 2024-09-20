@@ -1,0 +1,78 @@
+/* App.css */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000; /* Emerald background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+}
+
+.container {
+  background-color: #ecec4c;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px; /* Increased width */
+  width: 130%;
+  text-align: center;
+  border: 20px solid darkred; /* Adds a bold red border around the container */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+h1, h2 {
+  color: #333;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.task-display {
+  background-color: #008B8B; /* Pink background color */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.task-display p {
+  color: #fff;
+  font-size: 2.2em;
+}
+
+div {
+  margin: 20px 0;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #006400;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 24px);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
