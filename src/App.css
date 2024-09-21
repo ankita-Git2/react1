@@ -7,7 +7,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150vh;
+  height: 100%;
+ 
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   max-width: 800px; /* Increased width */
-  width: 130%;
+  width: 100%;
   text-align: center;
   border: 20px solid darkred; /* Adds a bold red border around the container */
   box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */

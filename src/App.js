@@ -8,6 +8,8 @@ import TwoWayBinding from './components/TwoWayBinding';
 import SumTwoNumbers from './components/SumTwoNumbers';
 import AddTechnology from './components/AddTechnology';
 import TaskDisplay from './components/TaskDisplay';
+import Counter from './components/Counter';
+import SearchFilter from './components/SearchFilter';
 import './App.css';
 
 function App() {
@@ -28,6 +30,11 @@ function App() {
       <SumTwoNumbers />
       <h1>7. Dynamically Add Child Components (Tools List)</h1>
       <AddTechnology />
+      <h1>8. Counter</h1>
+      <Counter />
+      <h1>9. Filter</h1>
+      <SearchFilter />
+
     
     </div>
   );
